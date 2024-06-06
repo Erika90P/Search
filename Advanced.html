@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Advance Search</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+
+    .Seach-container{
+      display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 100px   ;
+    }
+    .form-control.me-2{
+
+border-radius: 50px;
+border: 2px solid #73AD21;
+padding: 20px;
+height: 20px;
+width: 500px;
+}
+
+.buttons{
+
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>
+
+
+  <div class=" links">
+    <a href="index.html">Google Search </a>
+  </div> 
+  <div class="Seach-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-yCjR98S5sYKSTiLfrS-DCWm5VvPQZWlAhg&s">
+    </div>
+
+
+  <form action="https://www.google.com/search">
+  
+
+  <div class="search-field">
+    <label for="all">Find page with... All these words</label>
+    <input class="form-control me-2" placeholder="" aria-label="Search" name="as_q" type="text" id="all">
+    </div>
+
+  <div class="search-field">
+    <label for="exact">Find page with... This exact words or phrase </label> 
+    <input class="form-control me-2" placeholder="" aria-label="Search" name="as_epq" type="text" id="exact">
+
+  </div>
+
+  <div class="search-field">
+    <label for="any">Any of these words</label>
+    <input class="form-control me-2" placeholder="" aria-label="Search" name="as_oq" type="text" id="any">
+  </div>
+
+  <div class="search-field">
+    <label for=none> none of these words</label>
+    <input class="form-control me-2" placeholder="" aria-label="Search" name="as_eq" type="text" id="none">
+  </div>
+
+  <div class="buttons">
+    <button class="btn btn-outline-success" type="submit">Advanced Search"</button>
+  </div>
+</form>
+</div>
+</body>
+</html>
